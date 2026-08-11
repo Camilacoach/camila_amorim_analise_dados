@@ -185,12 +185,14 @@ else:
 # Exercício 21 — Criando uma lista
 # Crie uma lista com as frutas "maçã", "banana", "laranja" e "uva".
 # Mostre a lista completa.
-
+frutas = ["maçã", "banana", "laranja", "uva"]
 
 # Exercício 22 — Acessando elementos
 # Usando a lista abaixo, mostre o primeiro e o último elemento.
 # cores = ["azul", "verde", "amarelo", "vermelho"]
-
+cores = ["azul", "verde", "amarelo", "vermelho"]
+cores[0]
+cores[-1]
 
 # Exercício 23 — Adicionando elementos
 # Crie uma lista com três nomes. Peça outro nome ao usuário, adicione-o ao
@@ -244,7 +246,8 @@ else:
 
 # Exercício 31 — Números de 1 a 10
 # Use um laço for e range() para mostrar os números de 1 a 10.
-
+for n in range(1, 11):
+    print(n)
 
 # Exercício 32 — Números pares
 # Use um laço for para mostrar apenas os números pares de 2 a 20.
@@ -253,7 +256,9 @@ else:
 # Exercício 33 — Percorrendo nomes
 # Use um laço for para mostrar cada nome da lista abaixo em uma linha.
 # nomes = ["Ana", "Bruno", "Carla", "Diego"]
-
+nomes = [ "Ana", "Bruno", "Carla", "Diego"]
+for nome in nomes:
+    print(nomes)
 
 # Exercício 34 — Quadrados
 # Use um laço for para criar uma nova lista contendo o quadrado de cada número.
@@ -297,13 +302,19 @@ else:
 # Exercício 41 — Criando um dicionário
 # Crie um dicionário chamado aluno com as chaves "nome", "idade" e "curso".
 # Preencha com valores fictícios e mostre o dicionário completo.
+aluno = {"nome": "Camila",
+         "idade": 19,
+         "curso": "economia"}
+print(aluno)
 
 
 # Exercício 42 — Acessando valores
 # Dado o dicionário abaixo, mostre separadamente o nome e o preço do produto.
 # produto = {"nome": "Teclado", "preco": 150.0, "estoque": 8}
-
-
+produto = {"nome": "Teclado",
+            "preco": 150.0,
+              "estoque": 8}
+print(produto["nome"])
 # Exercício 43 — Adicionando uma chave
 # Adicione a chave "marca" ao dicionário abaixo e mostre o resultado.
 # produto = {"nome": "Mouse", "preco": 80.0}
