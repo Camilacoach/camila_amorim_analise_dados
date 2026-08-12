@@ -103,7 +103,13 @@ print(area)
 # Exercício 10 — Preço com desconto
 # Leia o nome de um produto, seu preço e um percentual de desconto.
 # Calcule e mostre o nome do produto, o valor do desconto e o preço final.
-
+nome = input("digite o nome")
+preço = float(input("digite o preço"))
+desconto = float(input("digite o percentual de desconto"))
+preço= preço - (preço*desconto/100)
+print(nome)
+print(preço)
+print(desconto)
 
 # ============================================================================
 # 2. ESTRUTURA CONDICIONAL — EXERCÍCIOS 11 A 20
@@ -135,6 +141,15 @@ else:
 # Exercício 13 — Aprovação
 # Leia a média de um aluno. Mostre "Aprovado" se a média for maior ou igual
 # a 7 e "Reprovado" caso contrário.
+nota1 = float(input("digite sua nota"))
+nota2 = float(input("digite sua nota"))
+nota3 = float(input("digite sua nota"))
+media = (nota1+ nota2+nota3/3)
+print(media)
+if media >=7:
+    print("aprovado")
+else:
+    print("reprovado")
 
 
 # Exercício 14 — Aprovação com recuperação
