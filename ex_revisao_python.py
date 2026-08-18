@@ -497,6 +497,10 @@ for quantidade in estoque.values():
     total += quantidade
 print(total)
 
+#ou 
+estoque = {"notebook": 5, "mouse": 20, "teclado": 12, "monitor": 4}
+sum(estoque.values())
+
 # Exercício 50 — Frequência de palavras
 # Percorra a lista abaixo e crie um dicionário que conte quantas vezes cada
 # palavra aparece. Ao final, mostre o dicionário de frequências.
